@@ -9,13 +9,14 @@ body{
     color: white;
     text-align: right;
     text-transform: uppercase;
+    height: 110%;
 
 }
 
 img{
     display: block;
     width: 35%;
-    height: auto;
+    height: 50%;
     border: 0;
 }
 
@@ -37,18 +38,26 @@ img{
     content: "";
     display: table;
     clear: both;
+    margin: 50px;
 
 }
+#orange{
+    color: orange;
+}
+
 .guide1{
     background-color: #358A9B;
     color: white;
     flex-direction: column;
+    display: inline;
+    margin: 50px;
 }
 .guide2{
     background-color: #404041;
     color: white;
     flex-direction: column;
-
+    display: inline;
+    margin: 50px;
 }
 
 #today{
