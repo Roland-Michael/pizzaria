@@ -1,34 +1,96 @@
-#intro{
-    background-color:red;
+body{
+    color: white;
+    font-family: 'Lato', sans-serif;
+
 }
 
+.topBanner{
+    background-color:#d45e27;
+    color: white;
+    text-align: right;
+    text-transform: uppercase;
 
+}
+
+img{
+    display: block;
+    width: 35%;
+    height: auto;
+    border: 0;
+}
+
+.content{
+
+}
+
+#topMenu{
+    color: white;
+    text-align: center;
+    margin-bottom: 0 !important;
+    display: flex;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Lato', sans-serif;
+    letter-spacing: 1px;
+    box-sizing: border-box;
+    content: "";
+    display: table;
+    clear: both;
+
+}
+.guide1{
+    background-color: #358A9B;
+    color: white;
+    flex-direction: column;
+}
+.guide2{
+    background-color: #404041;
+    color: white;
+    flex-direction: column;
+
+}
 
 #today{
-    background-color: aqua;
+    background-color: #565656;
+    color: white;
 }
 
+.sectionTitle{
+    text-align: center;
+    font-size: 30px;
+}
 
 
 #menu{
-    background-color:blue;
+    background-color: #27505d;
 }
 
 
+.pizzaName{
+    text-transform: uppercase;
+    font-weight: 500;
+
+}
+.description,.price{
+    font-weight: 300;
+}
+
 
 #subscribe{
-    background-color:purple;
+    background-color:#EFEFEF;
+    color: rgba(0, 0, 0, 0.87);
 }
 
 
 #visit{
-    background-color:yellow;
+    background-color:#ECAF22;
 }
 
 
 
 footer{
-    background-color:black;
-    color:white;
+    background-color:#404041;
+    color:#919191;
 }
 
